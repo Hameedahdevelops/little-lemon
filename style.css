@@ -1,0 +1,136 @@
+*{
+    font-family:'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color:#CDCDCD;
+    height: 100vh;
+    width:100vw;
+    display: grid;
+    place-items: center;
+    margin-inline: auto; 
+    
+}
+.little-lemon{
+    width: 300px;
+    height: auto;
+    margin-inline: auto; 
+    position: relative;
+    /* top: -20px; */
+
+}
+
+.white{
+    color: white;
+}
+.nav-bar{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 10px;
+    height:30px;
+    gap: 10px;
+    position: relative;
+   
+}
+
+.promo{
+    border-radius: 30px;
+    background-image: url(https://imagizer.imageshack.com/img924/6914/rZYzbd.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 90%;
+    padding: 15px;
+    position: relative;
+    top:5px;
+}
+.off{
+    position: relative; 
+    top: 10px;
+} 
+.lorem{
+    position: relative;
+    top: 30px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:140px;
+}
+.box{
+    background-color: #F4E0B9; 
+    width: 250px;
+    height: 250px;
+    padding: 10px; 
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.menu{
+    position: relative;
+    top: 10px;
+}
+.table{
+    position: relative;
+    top: 10px;
+}
+.hours{
+    position: relative;
+    top: 10px;
+}
+.box-text{
+    color: black;
+    font-size: 12px;
+    line-height: 15px;
+}
+.box-head{
+    /* position:relative;
+    left:-30px; */
+    font-weight: 700; 
+}
+
+.meat{
+    height: auto;
+    width: 90%;
+    /* position: relative;
+    left:-10px; */
+}
+.chef{
+    margin-top: 5px;
+}
+.time{
+    margin: 5px;
+}
+.link{
+    /* position:relative;
+    left:-60px; */
+    color: blue;
+}
+.lemon-box{
+    height: auto;
+    width: 40px;
+    position: relative;
+    left: -600px;
+}
+hr{
+    height: 1px;
+    width:30%;
+    background-color: black;
+    position: relative;
+    top:-40px;
+    right: -430px;
+}
+.line{
+    font-size: 12px;
+    position: relative;
+    top:-40px;
+    right: -540px;
+}
