@@ -137,15 +137,44 @@ hr{
 }
 @media(max-width:425px){
     .parent{
-        height: 100vh;
-        width:100vw;
+        height: 100%;
+        width:100%;
+    }
+    .little-lemon{
+        margin-top: 5px;
+    }
+    .nav-bar{
+        margin-top: 20px;
     }
     .promo{
         height:180px;
         border-radius: 30px 30px 30px 30px;
+        margin-top: 20px;
+        /* padding: 10px; */
+    }
+    .off{
+        position: relative; 
+        top: -5px;
+    } 
+    .lorem{
+        position: relative; 
+        top: -2px;
     }
     .about{
         display: flex;
         flex-direction: column;
-}
+        gap:-100px;
+        
+    }
+    hr{
+        position: relative;
+        top:-10px;
+        right: -116px;
+        width:40%;
+    }
+    .line{
+        position: relative;
+        top:-1px;
+        right: -140px;
+    }
 } 
